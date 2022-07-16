@@ -1,0 +1,107 @@
+1657990091491	geckodriver	INFO	Listening on 127.0.0.1:62437
+1657990094533	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "62438" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileNfiJrt"
+*** You are running in headless mode.
+1657990094794	Marionette	INFO	Marionette enabled
+1657990094797	Marionette	INFO	Listening on port 62450
+WebDriver BiDi listening on ws://localhost:62438
+Read port: 62450
+1657990095029	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileNfiJrt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62438/devtools/browser/02a0128d-8717-44d4-969b-605092dbaeb5
+Shutting down due to socket process crash.
+127.0.0.1:62551
+1657990100061	mozrunner::runner	INFO	Running command: "C:\\P1657990100189	mozrunner::runner	INFO	Running command: "C:\\P1657990100321	mozrunner::runner	INFO	Running command: "C:\\P1657990100347	mozrunner::runner	INFO	Running command: "C:\\P1657990100440	mozrunner::runner	INFO	Running command: "C:\\P1657990100582	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "1657990100603	mozrunner::ru1657990100674	Marionette	INFO	Marionette enabled
+16579901001657990100715	Marionette	INFO	Marionette enabled
+161657990101042	RemoteAgent	WA[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings[GFX1-]: RenderCompositorSWGL failed mapping defaulDevTools listening on ws://localhost:62552/devtools/browser/DevTools listening on ws://localhost:6Shutting down due to socket process crash.
+ws://localhost:6Shutting down due to socket process crash.
+js/chunk-vendors1657990150992	Marionette	WARN	Ignoring event 'DOMContentLoadShutting down due to socket process crash.
+te of 'complete'ShuShutting down due to socket process crash.
+d out after 5ShShutting down due to socket process crash.
+ed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/mShutting down due to socket process crash.
+e://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElemenShutting down due to socket process crash.
+tion.js:179:31
+Shutting down due to socket process crash.
+marionette/interaction.js:179:31
+content/marionette/interaction.js:179:31
+1657990133617	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1657990687759	geckodriver	INFO	Listening on 127.0.0.1:65117
+1657990690807	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "65118" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileptJZJc"
+*** You are running in headless mode.
+1657990691067	Marionette	INFO	Marionette enabled
+1657990691070	Marionette	INFO	Listening on port 65130
+WebDriver BiDi listening on ws://localhost:65118
+Read port: 65130
+1657990691322	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileptJZJc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65118/devtools/browser/d794ad11-80b1-4a3c-b378-2706cb1d4fc4
+Shutting down due to socket process crash.
+127.0.0.1:65224
+1657990697597	mozrunner::runner	INFO	Running command: "C:\\P1657990697692	mozrunner::runner	INFO	Running command: "C:\\P1657990697754	mozrunner::runner	INFO	Running command: "C:\\P1657990697783	mozrunner::runner	INFO	Running command: "C:\\P1657990697922	mozrunner::runner	INFO	Running command: "C:\\P1657990697922	mozrunner::runner	INFO	Running command: "C:\\P1657990698029	mozrunner::ru1657990698155	Marionette	INFO	Marionette enabled
+16579906981657990698240	Marionette	INFO	Marionette enabled
+16579906981657990698302	Marionette	INFO	Marionette enabled
+161657990698725	RemoteAgent	WA[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\TeDevTools listening on ws://localhost:61657990768402	Marionette	WARN	Ignoring event 'DOMContentLoad1657990778638	Marionette	WARN	Ignoring event 'DOMContentLoadJavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https:JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: eJavaScript error: https:JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: eJavaScript error: https:JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: eJavaScript error: https:JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: eJavaScript error: https:JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: eJavaScript error: https:JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: eJavaScript error: https://www.tcgplayer.com/js/chunk-vendors.ce38f380.js, line 18: Error: Navigation cancelled from "/product/111428/weiss-schwarz-kancolle-2nd-furutaka-class-heavy-cruiser-kako-td?Language=English" to "/uhoh" with a new navigation.
+JavaScript error: https://www.tcgplayer.com/js/chunk-vendors.ce38f380.js, line 18: Error: Navigation cancelled from "/product/111428/weiss-schwarz-kancolle-2nd-furutaka-class-heavy-cruiser-kako-td?Language=English" to "/uhoh" with a new navigation.
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/chunk-vendors.ce38f380.js, line 18: Error: Navigation cancelled from "/product/162980/metax-tcg-promotional-cards-5-speciaJavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2JavaScript error: https://www.tcgplayer.com/js/app.42JavaScript error: https://www.tcgplayer.com/js/chunk-veJavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeErroJavaScript error: https://wwJavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeErroJavaScript error: https://wwJavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeErroJavaScript error: https://wwJavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeErroJavaScript error: https://wwJavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeErroJavaScript error: https://wwJavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeErroJavaScript error: https://wwJavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeErroJavaScript error: https://wwJavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JaJavaScript error: https://www.tcgplayer.com/js/chunk-vendors.ce38f380.js, line 18: Error: Navigation cancelled from "/product/103695/weiss-schwarz-fate-stay-night-unlimited-blade-works-a-differJavaScript error: https://www.tcgplayer.com/js/chunk-vendors.ce38f380.js, line 18: Error: Navigation cancelled from "/product/265463/force-of-will-promo-cards-a-duet-of-water?Language=English" to "/uhoh" with a new navigation.
+JavaScript error: https://www.tcJavaScript error: https://www.JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeErJavaScript error: https://www.JavaScript error: https://www.tcgplayer.com/js/app.42e2d98eJavaScript error: hJavaScript error: https://www.JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+p.42e2d98e.js, line 1: TypeError: e.responseShutting down due to socket process crash.
+undefined
+: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+ttps://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+-of-will-promo-cards-a-duet-of-darkness?LanguageJavaScript error: https://www.tcgplayer.com/jJavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+h a new navigation.
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
+JavaScript error: https://www.tcgplayer.com/js/app.42e2d98e.js, line 1: TypeError: e.response is undefined
