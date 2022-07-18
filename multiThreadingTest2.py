@@ -12,25 +12,10 @@ from selenium.common.exceptions import TimeoutException
 start_time = time.time()
 
 os.system('cls' if os.name == 'nt' else 'clear')
-options = webdriver.FirefoxOptions()
-options.headless = True
-driver = webdriver.Firefox(options = options)
-
 
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0'}
 
 urls = [
-    # "https://www.tcgplayer.com/product/138963/metax-tcg-justice-league-1-intelligence-s69jl",
-    # "https://www.tcgplayer.com/product/222877/weiss-schwarz-mob-psycho-100-100pct",
-    # "https://www.tcgplayer.com/product/168980/metax-tcg-batman-1-intelligence-r126-bm/test",
-    # "https://www.tcgplayer.com/product/193904/star-wars-destiny-spark-of-hope-0-0-0-protocol-matrix-card-only",
-    # "https://www.tcgplayer.com/product/169765/star-wars-destiny-way-of-the-force-0-0-0-card-only",
-    # "https://www.tcgplayer.com/product/211419/pokemon-jumbo-cards-______s-tepig",
-    # "https://www.tcgplayer.com/product/211418/pokemon-jumbo-cards-______s-snivy",
-    # "https://www.tcgplayer.com/product/90784/pokemon-wotc-promo-______s-pikachu",
-    # "https://www.tcgplayer.com/product/250325/pokemon-celebrations-classic-collection-______s-pikachu",
-    # "https://www.tcgplayer.com/product/211418/pokemon-jumbo-cards-______s-snivy"
-
     "https://www.tcgplayer.com/product/222877/weiss-schwarz-mob-psycho-100-100pct",
     "https://www.tcgplayer.com/product/23292/yugioh-ancient-sanctuary-7",
     "https://www.tcgplayer.com/product/24825/yugioh-dark-revelation-volume-2-7",
@@ -1033,46 +1018,143 @@ urls = [
     "https://www.tcgplayer.com/product/25952/yugioh-dark-revelation-volume-3-a-feather-of-the-phoenix"
 ]
 
+column = ['Set Name', 'Card Name', 'URL', 'Image', 'Description']
+
 def issue(message, url):
     print(message + url)
     with open('issueCards.txt', 'a') as f:
         f.write(url + '\n')
     f.close()
 
+def timeout(url):
+    with open('timeoutCards.txt', 'a') as f:
+        f.write(url + '\n')
+    f.close()
+
+def findIndex(ele, arr):
+    return arr.index(ele)
+
 def main(url):
     try:
-        output = []
-        try:
-            WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "product-details__name")))
-        except:
-            driver.refresh()
-            WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "product-details__name")))
-        setNameGroup = driver.find_element(By.CLASS_NAME, 'product-details__name').text
-        setNameSplit = setNameGroup.split(' - ')
-        if setNameSplit == ['']:
-            driver.refresh()
-            WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "product-details__name")))
-            setNameGroup = driver.find_element(By.CLASS_NAME, 'product-details__name').text
-            setNameSplit = setNameGroup.split(' - ')
-        if len(setNameSplit) != 2:
-            setNameGroup = driver.find_element(By.CLASS_NAME, 'product-details__name').text
-            setNameSplit = setNameGroup.split(' - ')
-        card = setNameSplit[1]
-        set = setNameSplit[0]
-        image = driver.find_element(By.CLASS_NAME, 'progressive-image-main').get_attribute('src')
-        print('Completed:', url)
-    except Exception as e:
-        print(e)
-
-for url in urls:
-    try:
-        driver.get(url)
-        driver.set_page_load_timeout(10)
-        main(url)
-    except TimeoutException:
-        print('Hit TimeoutException with:', url)
-        driver.close()
         options = webdriver.FirefoxOptions()
         options.headless = True
         driver = webdriver.Firefox(options = options)
+        driver.get(url)
+        driver.set_page_load_timeout(10)
+        output = []
+        try:
+            try:
+                WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "product-details__name")))
+            except:
+                driver.refresh()
+                WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "product-details__name")))
+            setNameGroup = driver.find_element(By.CLASS_NAME, 'product-details__name').text
+            setNameSplit = setNameGroup.split(' - ')
+            if setNameSplit == ['']:
+                driver.refresh()
+                WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "product-details__name")))
+                setNameGroup = driver.find_element(By.CLASS_NAME, 'product-details__name').text
+                setNameSplit = setNameGroup.split(' - ')
+            if len(setNameSplit) != 2:
+                driver.refresh()
+                WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "product-details__name")))
+                setNameGroup = driver.find_element(By.CLASS_NAME, 'product-details__name').text
+                setNameSplit = setNameGroup.split(' - ')
+        except:
+            driver.close()
+            options = webdriver.FirefoxOptions()
+            options.headless = True
+            driver = webdriver.Firefox(options = options)
+            driver.get(url)
+            WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "product-details__name")))
+            setNameGroup = driver.find_element(By.CLASS_NAME, 'product-details__name').text
+            setNameSplit = setNameGroup.split(' - ')
+        card = setNameSplit[1]
+        setName = setNameSplit[0]
+        image = driver.find_element(By.CLASS_NAME, 'progressive-image-main').get_attribute('src')
+        try:
+            readMore = driver.find_element(By.CLASS_NAME, 'product__item-details__toggle.masked')
+            readMore.click()
+        except:
+            readMore = ''
+        try:
+            description = driver.find_element(By.CLASS_NAME, 'product__item-details__description').text
+        except:
+            description = ''
+        
+        dataAttributes = driver.find_element(By.CLASS_NAME, 'product__item-details__attributes')
+        pdList = dataAttributes.find_elements(By.TAG_NAME, 'li')
+        dataClean = []
+        columnClean = []
+
+        for i in pdList:
+            attrib = i.text.split(':')
+            if ' / ' in attrib[0]:
+                attrib[0] = attrib[0].split(' / ')
+            if ' /' in attrib[0]:
+                attrib[0] = attrib[0].split(' /')
+            if '/ ' in attrib[0]:
+                attrib[0] = attrib[0].split('/ ')
+            if '/' in attrib[0]:
+                attrib[0] = attrib[0].split('/')
+
+            if ' / / ' in attrib[1]:
+                attrib[1] = attrib[1].split('/')
+            if ' / /' in attrib[1]:
+                attrib[1] = attrib[1].split(' /')
+            if ' / ' in attrib[1]:
+                attrib[1] = attrib[1].split(' / ')
+            if ' /' in attrib[1]:
+                attrib[1] = attrib[1].split(' /')
+            if '/ ' in attrib[1]:
+                attrib[1] = attrib[1].split('/ ')
+            
+            if type(attrib[0]) == str and type(attrib[1]) == str:
+                columnClean.append(attrib[0])
+                dataClean.append(attrib[1])
+                if attrib[0] not in column:
+                    column.append(attrib[0])
+            if type(attrib[0]) == list and type(attrib[1]) == list:
+                if len(attrib[0]) == len(attrib[1]):
+                    for j in attrib[0]:
+                        columnClean.append(j)
+                        if j not in column:
+                            column.append(j)
+                    for j in attrib[1]:
+                        dataClean.append(j)
+                else:
+                    raise ValueError('Issue with length on Attributes')
+            
+            if type(attrib[0]) == str and type(attrib[1]) == list or type(attrib[0]) == list and type(attrib[1]) == str:
+                raise ValueError('Issue with length on Attributes')
+
+        output = [''] * len(column)
+        output[0] = setName
+        output[1] = card
+        output[2] = url
+        output[3] = image
+        output[4] = description
+        
+        for i, x in enumerate(columnClean):
+            output[findIndex(x, column)] = dataClean[i]
+
+        with open('cardColumns.csv', 'w', newline = "", encoding="utf-8") as f:
+            write = csv.writer(f)
+            write.writerows([column])
+            f.close()
+
+        with open('test.csv', 'a', newline = "", encoding="utf-8") as f:
+            write = csv.writer(f)
+            write.writerows([output])
+            f.close()
+        print('Completed:', url)
+    except TimeoutException:
+        print('Hit TimeoutException with:', url)
+        driver.close()
+        # timeout(url)
         main(url)
+    except Exception as e:
+        issue('Issue with book, sending to issueCard.txt:', url)
+
+for url in urls:
+    main(url)

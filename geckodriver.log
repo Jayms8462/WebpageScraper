@@ -1,433 +1,398 @@
-1658136695432	geckodriver	INFO	Listening on 127.0.0.1:51781
-1658136698475	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "51782" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilet2VX7R"
+1658163309268	geckodriver	INFO	Listening on 127.0.0.1:64643
+1658163312327	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "64644" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilett50Q8"
 *** You are running in headless mode.
-1658136698766	Marionette	INFO	Marionette enabled
-1658136698770	Marionette	INFO	Listening on port 51793
-WebDriver BiDi listening on ws://localhost:51782
-Read port: 51793
-1658136698894	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658163312570	Marionette	INFO	Marionette enabled
+1658163312573	Marionette	INFO	Listening on port 64654
+WebDriver BiDi listening on ws://localhost:64644
+Read port: 64654
+1658163312834	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilet2VX7R\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:51782/devtools/browser/08b958cc-8b97-4c5c-b0fa-c15295fd3796
-1658136715759	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658136728967	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-1658136793331	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658136793331	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://www.tcgplayer.com/js/chunk-vendors.ce38f380.js, line 18: Error: Navigation cancelled from "/product/159115/pokemon-pikachu-world-collection-promos-______s-pikachu?Language=English" to "/uhoh" with a new navigation.
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-1658137038345	geckodriver	INFO	Listening on 127.0.0.1:53044
-1658137041395	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "53045" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilelf3Ltr"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilett50Q8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64644/devtools/browser/c2d9d7a7-00ea-47d7-85a4-fbdc6705d7cd
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+ner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "64760" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileLxOOFa"
 *** You are running in headless mode.
-1658137041657	Marionette	INFO	Marionette enabled
-1658137041661	Marionette	INFO	Listening on port 53056
-WebDriver BiDi listening on ws://localhost:53045
-Read port: 53056
-1658137041855	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658163320680	Marionette	INFO	Marionette enabled
+1658163320684	Marionette	INFO	Listening on port 64772
+WebDriver BiDi listening on ws://localhost:64760
+Read port: 64772
+1658163320964	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilelf3Ltr\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:53045/devtools/browser/61a3777a-d7bf-4ff7-acd4-4d3514ad7363
-1658137131792	geckodriver	INFO	Listening on 127.0.0.1:53212
-1658137134830	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "53213" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofile0Gyoro"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileLxOOFa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64760/devtools/browser/79291273-0fa8-4020-8fce-059480a4df7e
+1658163325945	geckodriver	INFO	Listening on 127.0.0.1:64882
+1658163328993	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "64883" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileJO3BWo"
 *** You are running in headless mode.
-1658137135086	Marionette	INFO	Marionette enabled
-1658137135090	Marionette	INFO	Listening on port 53224
-WebDriver BiDi listening on ws://localhost:53213
-Read port: 53224
-1658137135290	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658163329238	Marionette	INFO	Marionette enabled
+1658163329241	Marionette	INFO	Listening on port 64895
+WebDriver BiDi listening on ws://localhost:64883
+Read port: 64895
+1658163329502	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofile0Gyoro\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:53213/devtools/browser/c54c4c00-78f6-4dd5-a22b-12f2124b7cb7
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-1658137213539	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: , line 0: uncaught exception: CustomError: Error in protected function: Invalid JSON string: 
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-1658137317251	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658137333229	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658138725422	geckodriver	INFO	Listening on 127.0.0.1:55744
-1658138728501	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "55745" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofile3mtP7e"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileJO3BWo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64883/devtools/browser/829de0a6-7536-4791-a778-f5d304f162bb
+1658163334715	geckodriver	INFO	Listening on 127.0.0.1:64996
+1658163337744	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "64997" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileMA5HTg"
 *** You are running in headless mode.
-1658138728819	Marionette	INFO	Marionette enabled
-1658138728823	Marionette	INFO	Listening on port 55756
-WebDriver BiDi listening on ws://localhost:55745
-Read port: 55756
-1658138729091	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658163337991	Marionette	INFO	Marionette enabled
+1658163337994	Marionette	INFO	Listening on port 65013
+WebDriver BiDi listening on ws://localhost:64997
+Read port: 65013
+1658163338251	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofile3mtP7e\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:55745/devtools/browser/a8ce2c78-ab80-4e54-8eb1-c438e615cf73
-1658138818786	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658138818786	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658138830721	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658138863947	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658138909612	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658138909613	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658138909613	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-1658138967230	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658138967231	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658138967231	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-1658139106888	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658139146502	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 56: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
-1658139173170	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://www.tcgplayer.com/js/productdetails.cc40dbe5.js, line 14: TypeError: this.$refs.thumbnails is undefined
-JavaScript error: https://www.tcgplayer.com/js/productdetails.cc40dbe5.js, line 14: TypeError: this.$refs.thumbnails is undefined
-JavaScript error: https://www.tcgplayer.com/js/productdetails.cc40dbe5.js, line 14: TypeError: this.$refs.thumbnails is undefined
-JavaScript error: https://www.tcgplayer.com/js/chunk-vendors.ce38f380.js, line 18: Error: Navigation cancelled from "/product/164433/magic-world-championship-decks-1997-svend-geertsen-decklist-card?Language=English" to "/uhoh" with a new navigation.
-1658139243396	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658139243396	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://www.tcgplayer.com/js/productdetails.cc40dbe5.js, line 14: TypeError: this.$refs.thumbnails is undefined
-JavaScript error: https://www.tcgplayer.com/js/productdetails.cc40dbe5.js, line 14: TypeError: this.$refs.thumbnails is undefined
-1658139312596	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658139377970	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658139446272	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658139475312	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658143200459	geckodriver	INFO	Listening on 127.0.0.1:62057
-1658143203499	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "62058" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileEODPiA"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileMA5HTg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64997/devtools/browser/734319bd-d97e-4988-b2d5-8e6ba99efa1c
+1658163342557	geckodriver	INFO	Listening on 127.0.0.1:65121
+1658163345590	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "65122" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileYLOpAe"
 *** You are running in headless mode.
-1658143203877	Marionette	INFO	Marionette enabled
-1658143203882	Marionette	INFO	Listening on port 62070
-WebDriver BiDi listening on ws://localhost:62058
-Read port: 62070
-1658143204056	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658163345829	Marionette	INFO	Marionette enabled
+1658163345833	Marionette	INFO	Listening on port 65136
+WebDriver BiDi listening on ws://localhost:65122
+Read port: 65136
+1658163346013	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileEODPiA\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:62058/devtools/browser/d7fa81aa-29d6-4485-97ae-0ce5c4c21d87
-1658143208736	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-1658143228653	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658143228653	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658143228654	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://www.tcgplayer.com/js/chunk-vendors.ce38f380.js, line 18: Error: Navigation cancelled from "/product/259289/wixoss-diva-debut-deck-d02-nijisanji-ver-sanbaka-assist-toko-level-2?Language=English" to "/uhoh" with a new navigation.
-1658143321444	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658143321444	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: , line 0: uncaught exception: XhrError
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-JavaScript error: , line 0: uncaught exception: XhrError
-JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 56: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-1658143629445	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658143679295	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://www.tcgplayer.com/js/productdetails.cc40dbe5.js, line 14: TypeError: this.$refs.thumbnails is undefined
-1658143786031	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658143868198	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-1658143911662	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-JavaScript error: , line 0: uncaught exception: XhrError
-1658144092945	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658144107294	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658144107294	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658144107296	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658144114912	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-1658144164753	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658144172284	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658144210661	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658144210661	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://www.tcgplayer.com/js/productdetails.cc40dbe5.js, line 14: TypeError: this.$refs.thumbnails is undefined
-1658144245550	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658144245550	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658144245550	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-JavaScript error: https://www.tcgplayer.com/js/productdetails.cc40dbe5.js, line 14: TypeError: this.$refs.thumbnails is undefined
-JavaScript error: https://www.tcgplayer.com/js/productdetails.cc40dbe5.js, line 14: TypeError: this.$refs.thumbnails is undefined
-1658144346189	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658144348529	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658144380138	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658144380138	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-1658144414697	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658144419171	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://www.tcgplayer.com/js/chunk-vendors.ce38f380.js, line 18: Error: Navigation cancelled from "/product/111436/weiss-schwarz-kancolle-2nd-kuma-class-light-cruiser-tama-td?Language=English" to "/uhoh" with a new navigation.
-1658144442757	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658144442757	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658144552503	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658144602558	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658144611465	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658144611465	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658144611465	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658144627297	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658144710094	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658144814736	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658144814736	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658145416593	geckodriver	INFO	Listening on 127.0.0.1:53738
-1658145419651	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "53739" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileGp89IT"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileYLOpAe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65122/devtools/browser/4bdea74c-4663-4768-8704-4bcdfdd2f887
+1658163350877	geckodriver	INFO	Listening on 127.0.0.1:65242
+1658163353928	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "65243" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilecQiNGK"
 *** You are running in headless mode.
-1658145419916	Marionette	INFO	Marionette enabled
-1658145419920	Marionette	INFO	Listening on port 53750
-WebDriver BiDi listening on ws://localhost:53739
-Read port: 53750
-1658145420137	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658163354173	Marionette	INFO	Marionette enabled
+1658163354176	Marionette	INFO	Listening on port 65257
+WebDriver BiDi listening on ws://localhost:65243
+Read port: 65257
+1658163354358	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileGp89IT\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:53739/devtools/browser/569e2ae1-0601-44ce-b17c-0e841fc8c64c
-1658145449895	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658145449895	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-1658145457632	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658145510027	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658145512785	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658145545587	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658145550307	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658145560653	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658145560653	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658145560654	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658145586039	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658145679520	geckodriver	INFO	Listening on 127.0.0.1:54523
-1658145682574	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "54524" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileedYs9V"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilecQiNGK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65243/devtools/browser/46e118e3-d2f3-493f-af24-3e8c91b194dc
+Shutting down due to socket process crash.
+127.0.0.1:65367
+1658163361920	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "65368" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileCv27Us"
 *** You are running in headless mode.
-1658145682839	Marionette	INFO	Marionette enabled
-1658145682843	Marionette	INFO	Listening on port 54534
-WebDriver BiDi listening on ws://localhost:54524
-Read port: 54534
-1658145683008	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658163362158	Marionette	INFO	Marionette enabled
+1658163362161	Marionette	INFO	Listening on port 65379
+WebDriver BiDi listening on ws://localhost:65368
+Read port: 65379
+1658163362415	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileedYs9V\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:54524/devtools/browser/4d3d7e85-14d0-4068-bb05-438b32c3319c
-1658145723840	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658145811259	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658145824799	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658145831537	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-1658146024902	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://www.paypal.com/sdk/js?client-id=AQ870EQjXMcuVuaHdN3Rmb8OmsgF-yY2NnBdHtQCqiGNz2-7phDM0TVNZmbfDt9mRHlE68OCgQqVNeBg&components=messages, line 1: Error: Detected container element removed from DOM
-1658146069806	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-1658146076113	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658146078673	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658146466097	geckodriver	INFO	Listening on 127.0.0.1:55929
-1658146469120	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "55930" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofiley9t1ln"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileCv27Us\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65368/devtools/browser/a7ba1ab1-249d-4080-84f8-e0c5ea503656
+Shutting down due to socket process crash.
+127.0.0.1:65489
+1658163370110	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "65490" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofile9gNOSr"
 *** You are running in headless mode.
-1658146469436	Marionette	INFO	Marionette enabled
-1658146469440	Marionette	INFO	Listening on port 55940
-WebDriver BiDi listening on ws://localhost:55930
-Read port: 55940
-1658146470009	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658163370355	Marionette	INFO	Marionette enabled
+1658163370359	Marionette	INFO	Listening on port 65511
+WebDriver BiDi listening on ws://localhost:65490
+Read port: 65511
+1658163370558	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofiley9t1ln\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:55930/devtools/browser/f9ab01e5-e58b-402d-83d9-d827f3aad573
-1658146486203	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658146496767	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658146496767	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658146525329	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658146527685	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658146552576	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658146554825	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658146569934	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658146649504	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658146678606	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658147454388	geckodriver	INFO	Listening on 127.0.0.1:56877
-1658147457440	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "56878" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileGFYJDT"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofile9gNOSr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65490/devtools/browser/6842bc27-a4dd-4735-8ba6-982c43718afe
+1658163375399	geckodriver	INFO	Listening on 127.0.0.1:49234
+1658163378410	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "49235" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofile729Uwe"
 *** You are running in headless mode.
-1658147457697	Marionette	INFO	Marionette enabled
-1658147457700	Marionette	INFO	Listening on port 56889
-WebDriver BiDi listening on ws://localhost:56878
-Read port: 56889
-1658147457853	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658163378662	Marionette	INFO	Marionette enabled
+1658163378666	Marionette	INFO	Listening on port 49248
+WebDriver BiDi listening on ws://localhost:49235
+Read port: 49248
+1658163378837	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileGFYJDT\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:56878/devtools/browser/e0b95b1c-2007-4c63-81b7-1a75519ff79a
-1658147507393	geckodriver	INFO	Listening on 127.0.0.1:56966
-1658147510437	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "56967" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileGzToYN"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofile729Uwe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49235/devtools/browser/82e2d84d-b293-4335-8771-4a1bfa30929f
+1658163383109	geckodriver	INFO	Listening on 127.0.0.1:49356
+1658163386156	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "49357" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofiles5RPXr"
 *** You are running in headless mode.
-1658147510698	Marionette	INFO	Marionette enabled
-1658147510702	Marionette	INFO	Listening on port 56978
-WebDriver BiDi listening on ws://localhost:56967
-Read port: 56978
-1658147510902	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658163386380	Marionette	INFO	Marionette enabled
+1658163386383	Marionette	INFO	Listening on port 49373
+WebDriver BiDi listening on ws://localhost:49357
+Read port: 49373
+1658163386663	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileGzToYN\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:56967/devtools/browser/eba71f38-a255-435e-9baa-d356352e1409
-1658147540338	geckodriver	INFO	Listening on 127.0.0.1:57045
-1658147543500	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "57046" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilehTPrk8"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofiles5RPXr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49357/devtools/browser/382b447b-224f-4153-a4c8-f763b8fe2975
+1658163391558	geckodriver	INFO	Listening on 127.0.0.1:49486
+1658163394597	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "49487" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilemghrJF"
 *** You are running in headless mode.
-1658147543756	Marionette	INFO	Marionette enabled
-1658147543760	Marionette	INFO	Listening on port 57061
-WebDriver BiDi listening on ws://localhost:57046
-Read port: 57061
-1658147543929	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658163394842	Marionette	INFO	Marionette enabled
+1658163394845	Marionette	INFO	Listening on port 49499
+WebDriver BiDi listening on ws://localhost:49487
+Read port: 49499
+1658163395125	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilehTPrk8\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:57046/devtools/browser/5bae9d23-cb6e-4e9f-a869-3ff539455760
-1658147548823	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658147573448	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658147586419	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://www.tcgplayer.com/js/chunk-vendors.ce38f380.js, line 18: Error: Navigation cancelled from "/product/259288/wixoss-diva-debut-deck-d02-nijisanji-ver-sanbaka-assist-toko-level-1?Language=English" to "/uhoh" with a new navigation.
-1658147642923	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658147679223	geckodriver	INFO	Listening on 127.0.0.1:57338
-1658147682278	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "57339" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofile1AFzna"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilemghrJF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49487/devtools/browser/0db2b9bf-6cf0-4240-9ba5-c1542a894270
+1658163399510	geckodriver	INFO	Listening on 127.0.0.1:49607
+1658163402544	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "49608" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilel53giK"
 *** You are running in headless mode.
-1658147682556	Marionette	INFO	Marionette enabled
-1658147682559	Marionette	INFO	Listening on port 57350
-WebDriver BiDi listening on ws://localhost:57339
-Read port: 57350
-1658147682743	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658163402789	Marionette	INFO	Marionette enabled
+1658163402792	Marionette	INFO	Listening on port 49620
+WebDriver BiDi listening on ws://localhost:49608
+Read port: 49620
+1658163403001	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofile1AFzna\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:57339/devtools/browser/eb31e36b-8a8e-456d-9fdd-e9e77b193022
-JavaScript error: https://www.paypal.com/sdk/js?client-id=AQ870EQjXMcuVuaHdN3Rmb8OmsgF-yY2NnBdHtQCqiGNz2-7phDM0TVNZmbfDt9mRHlE68OCgQqVNeBg&components=messages, line 1: Error: Detected container element removed from DOM
-1658147736550	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658147761866	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658147812229	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658147823284	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658147830222	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://www.tcgplayer.com/js/chunk-vendors.ce38f380.js, line 7: Error: Request aborted
-1658147907624	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658147954718	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658147954718	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658147954718	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658147959345	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-1658147994952	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://www.tcgplayer.com/js/chunk-vendors.ce38f380.js, line 18: Error: Navigation cancelled from "/product/168917/metax-tcg-batman-1-strength-c39-bm?Language=English" to "/uhoh" with a new navigation.
-1658148050345	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658148052637	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658148078571	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-1658148082345	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658148086560	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658148099806	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-1658148127200	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658148137334	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658148169177	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://www.tcgplayer.com/js/productdetails.cc40dbe5.js, line 14: TypeError: this.$refs.thumbnails is undefined
-JavaScript error: https://www.tcgplayer.com/js/productdetails.cc40dbe5.js, line 14: TypeError: this.$refs.thumbnails is undefined
-1658148197292	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658148202788	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://www.tcgplayer.com/js/productdetails.cc40dbe5.js, line 14: TypeError: this.$refs.thumbnails is undefined
-1658148268245	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658148277248	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658148285068	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://www.tcgplayer.com/js/productdetails.cc40dbe5.js, line 14: TypeError: this.$refs.thumbnails is undefined
-1658148350095	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658148355443	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658148454823	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658148472249	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658148510455	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658148553618	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658148568612	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658148570825	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658148680056	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658148680056	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658148680056	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://www.paypal.com/sdk/js?client-id=AQ870EQjXMcuVuaHdN3Rmb8OmsgF-yY2NnBdHtQCqiGNz2-7phDM0TVNZmbfDt9mRHlE68OCgQqVNeBg&components=messages, line 1: Error: Detected container element removed from DOM
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-1658148763916	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658148782333	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658148784875	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658148791981	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://www.tcgplayer.com/js/chunk-vendors.ce38f380.js, line 7: Error: Request aborted
-JavaScript error: https://www.tcgplayer.com/js/productdetails.cc40dbe5.js, line 14: TypeError: this.$refs.thumbnails is undefined
-JavaScript error: https://www.tcgplayer.com/js/productdetails.cc40dbe5.js, line 14: TypeError: this.$refs.thumbnails is undefined
-JavaScript error: https://www.tcgplayer.com/js/productdetails.cc40dbe5.js, line 14: TypeError: this.$refs.thumbnails is undefined
-JavaScript error: https://www.tcgplayer.com/js/chunk-vendors.ce38f380.js, line 7: Error: Request aborted
-1658148939700	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-JavaScript error: https://www.tcgplayer.com/js/chunk-vendors.ce38f380.js, line 18: Error: Navigation cancelled from "/product/179760/weiss-schwarz-kancolle-arrival-reinforcement-fleets-from-europe-2nd-kazahaya-class-transport-ship-hayasui-kai?Language=English" to "/uhoh" with a new navigation.
-1658149036069	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658149068942	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658149076448	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658149081073	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658149109270	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658149117748	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658149130006	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658149158067	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://www.tcgplayer.com/js/chunk-vendors.ce38f380.js, line 18: Error: Navigation cancelled from "/product/138922/metax-tcg-justice-league-3-intelligence-s31jl?Language=English" to "/uhoh" with a new navigation.
-1658149223273	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658149245013	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://www.tcgplayer.com/js/chunk-vendors.ce38f380.js, line 18: Error: Navigation cancelled from "/product/168928/metax-tcg-batman-3-str-sp-c49-bm?Language=English" to "/uhoh" with a new navigation.
-1658149274835	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://www.tcgplayer.com/js/chunk-vendors.ce38f380.js, line 7: Error: Request aborted
-1658149307863	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658149330160	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658149405896	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658149428636	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658149445894	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: resource://gre/modules/PageThumbUtils.jsm, line 353: TypeError: ChromeUtils.getClassName: Argument 1 is not an object.
-1658149451667	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658149456213	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658149461335	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658149561023	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658149759072	geckodriver	INFO	Listening on 127.0.0.1:63866
-1658149762134	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "63867" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileXsF1qM"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilel53giK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49608/devtools/browser/6afa4b59-2d8e-4ca9-884f-dcce4c0f7df4
+1658163407774	geckodriver	INFO	Listening on 127.0.0.1:49740
+1658163410803	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "49741" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilejVxvM9"
 *** You are running in headless mode.
-1658149762415	Marionette	INFO	Marionette enabled
-1658149762419	Marionette	INFO	Listening on port 63878
-WebDriver BiDi listening on ws://localhost:63867
-Read port: 63878
-1658149762633	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658163411058	Marionette	INFO	Marionette enabled
+1658163411062	Marionette	INFO	Listening on port 49752
+WebDriver BiDi listening on ws://localhost:49741
+Read port: 49752
+1658163411338	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileXsF1qM\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:63867/devtools/browser/1767a99d-89ab-458c-a3b2-79f90b424e3e
-1658149768269	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658149874561	geckodriver	INFO	Listening on 127.0.0.1:64030
-1658149877619	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "64031" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilem4XdBK"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilejVxvM9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49741/devtools/browser/38739bd3-3338-4a28-a54a-ac4c1ad2b3c9
+1658163417024	geckodriver	INFO	Listening on 127.0.0.1:49868
+1658163420066	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "49871" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilevSHVUP"
 *** You are running in headless mode.
-1658149878042	Marionette	INFO	Marionette enabled
-1658149878048	Marionette	INFO	Listening on port 64043
-WebDriver BiDi listening on ws://localhost:64031
-Read port: 64043
-1658149878174	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658163420284	Marionette	INFO	Marionette enabled
+1658163420287	Marionette	INFO	Listening on port 49887
+WebDriver BiDi listening on ws://localhost:49871
+Read port: 49887
+1658163420534	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilem4XdBK\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:64031/devtools/browser/94da9889-970e-428b-9e1d-5c5bb588be58
-JavaScript error: https://www.tcgplayer.com/js/chunk-vendors.ce38f380.js, line 7: Error: Request aborted
-1658150237019	geckodriver	INFO	Listening on 127.0.0.1:64677
-1658150240072	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "64678" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileJ4KIIU"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilevSHVUP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49871/devtools/browser/5dafa4d3-3910-492a-a096-0db387b7d195
+1658163425190	geckodriver	INFO	Listening on 127.0.0.1:50010
+1658163428228	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50011" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileewX4vA"
 *** You are running in headless mode.
-1658150240332	Marionette	INFO	Marionette enabled
-1658150240336	Marionette	INFO	Listening on port 64690
-WebDriver BiDi listening on ws://localhost:64678
-Read port: 64690
-1658150240504	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658163428478	Marionette	INFO	Marionette enabled
+1658163428482	Marionette	INFO	Listening on port 50022
+WebDriver BiDi listening on ws://localhost:50011
+Read port: 50022
+1658163428671	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileJ4KIIU\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:64678/devtools/browser/418911ce-7e96-41f9-be6f-b83e2fa31469
-1658150287089	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658150306559	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658150340300	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658150340300	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658150340300	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658150355699	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://www.paypal.com/sdk/js?client-id=AQ870EQjXMcuVuaHdN3Rmb8OmsgF-yY2NnBdHtQCqiGNz2-7phDM0TVNZmbfDt9mRHlE68OCgQqVNeBg&components=messages, line 1: Error: Detected container element removed from DOM
-JavaScript error: https://www.paypal.com/sdk/js?client-id=AQ870EQjXMcuVuaHdN3Rmb8OmsgF-yY2NnBdHtQCqiGNz2-7phDM0TVNZmbfDt9mRHlE68OCgQqVNeBg&components=messages, line 1: TypeError: i.parentNode is null
-JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-JavaScript error: https://www.tcgplayer.com/js/chunk-vendors.ce38f380.js, line 7: Error: Request aborted
-JavaScript error: https://www.tcgplayer.com/js/chunk-vendors.ce38f380.js, line 18: Error: Navigation cancelled from "/product/277515/weiss-schwarz-is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-familia-myth?Language=English" to "/uhoh" with a new navigation.
-JavaScript error: https://www.paypal.com/sdk/js?client-id=AQ870EQjXMcuVuaHdN3Rmb8OmsgF-yY2NnBdHtQCqiGNz2-7phDM0TVNZmbfDt9mRHlE68OCgQqVNeBg&components=messages, line 1: Error: Detected container element removed from DOM
-1658150464100	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://www.tcgplayer.com/js/chunk-vendors.ce38f380.js, line 7: Error: Request aborted
-1658150479666	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658150498114	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658150514612	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1658150530053	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://www.tcgplayer.com/js/chunk-vendors.ce38f380.js, line 7: Error: Request aborted
-1658150661948	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://www.tcgplayer.com/js/productdetails.cc40dbe5.js, line 14: TypeError: this.$refs.thumbnails is undefined
-JavaScript error: https://www.tcgplayer.com/js/productdetails.cc40dbe5.js, line 14: TypeError: this.$refs.thumbnails is undefined
-JavaScript error: https://www.paypal.com/sdk/js?client-id=AQ870EQjXMcuVuaHdN3Rmb8OmsgF-yY2NnBdHtQCqiGNz2-7phDM0TVNZmbfDt9mRHlE68OCgQqVNeBg&components=messages, line 1: Error: Detected container element removed from DOM
-1658150729024	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://www.tcgplayer.com/js/productdetails.cc40dbe5.js, line 14: TypeError: this.$refs.thumbnails is undefined
-JavaScript error: https://www.tcgplayer.com/js/productdetails.cc40dbe5.js, line 14: TypeError: this.$refs.thumbnails is undefined
-1658150745391	Marionette	INFO	Stopped listening on port 64690
-WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"SessionStore: flushing all windows","state":{"total":1,"current":0},"filename":"resource:///modules/sessionstore/SessionStore.jsm","lineNumber":2111,"stack":["resource:///modules/sessionstore/SessionStore.jsm:ssi_onQuitApplicationGranted:2111","resource:///modules/sessionstore/SessionStore.jsm:ssi_observe:1023","chrome://remote/content/marionette/driver.js:GeckoDriver.prototype.quit:2727","chrome://remote/content/marionette/server.js:despatch:306","chrome://remote/content/marionette/server.js:execute:279","chrome://remote/content/marionette/server.js:onPacket/<:252","chrome://remote/content/marionette/server.js:onPacket:253","chrome://remote/content/marionette/transport.js:_onJSONObjectReady/<:500"]}] Barrier: quit-application-granted
-RunWatchdog: Mainthread nested event loops during hang: 
- --- (no nested event loop active)
-1658150871022	geckodriver	INFO	Listening on 127.0.0.1:49851
-1658150874056	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "49852" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilej2ukkk"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileewX4vA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50011/devtools/browser/8489e5ff-f8ec-4279-8b3e-4ee5bac135be
+1658163433113	geckodriver	INFO	Listening on 127.0.0.1:50140
+1658163436155	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50141" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilesnT9kn"
 *** You are running in headless mode.
-1658150874328	Marionette	INFO	Marionette enabled
-1658150874333	Marionette	INFO	Listening on port 49862
-WebDriver BiDi listening on ws://localhost:49852
-Read port: 49862
-1658150874419	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658163436398	Marionette	INFO	Marionette enabled
+1658163436402	Marionette	INFO	Listening on port 50152
+WebDriver BiDi listening on ws://localhost:50141
+Read port: 50152
+1658163436576	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilej2ukkk\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:49852/devtools/browser/81db7492-ef18-4b0f-a880-ba7cf4047d89
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilesnT9kn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50141/devtools/browser/33a707f5-7230-4bea-a7ff-f69b69a76f5d
+1658163440903	geckodriver	INFO	Listening on 127.0.0.1:50259
+1658163444111	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50260" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileoZWNxg"
+*** You are running in headless mode.
+1658163444332	Marionette	INFO	Marionette enabled
+1658163444336	Marionette	INFO	Listening on port 50270
+WebDriver BiDi listening on ws://localhost:50260
+Read port: 50270
+1658163444411	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileoZWNxg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50260/devtools/browser/ace6e1c7-a4a0-4a05-84a9-e1b2614c17b0
+1658163448988	geckodriver	INFO	Listening on 127.0.0.1:50371
+1658163452036	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50372" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilefNJTzB"
+*** You are running in headless mode.
+1658163452282	Marionette	INFO	Marionette enabled
+1658163452286	Marionette	INFO	Listening on port 50385
+WebDriver BiDi listening on ws://localhost:50372
+Read port: 50385
+1658163452470	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilefNJTzB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50372/devtools/browser/cc0fb7af-7e35-40ce-abbd-f92700d96b32
+1658163456713	geckodriver	INFO	Listening on 127.0.0.1:50491
+1658163459749	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50492" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileZKt55e"
+*** You are running in headless mode.
+1658163459995	Marionette	INFO	Marionette enabled
+1658163459999	Marionette	INFO	Listening on port 50508
+WebDriver BiDi listening on ws://localhost:50492
+Read port: 50508
+1658163460333	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileZKt55e\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50492/devtools/browser/50d31cd0-0808-4914-8dbe-60a2dc7d29cc
+1658163464993	geckodriver	INFO	Listening on 127.0.0.1:50617
+1658163468015	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50618" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilenUmdsN"
+*** You are running in headless mode.
+1658163468241	Marionette	INFO	Marionette enabled
+1658163468244	Marionette	INFO	Listening on port 50628
+WebDriver BiDi listening on ws://localhost:50618
+Read port: 50628
+1658163468442	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilenUmdsN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50618/devtools/browser/01928e70-109c-46a4-b6ef-09c93da6fb24
+1658163473444	geckodriver	INFO	Listening on 127.0.0.1:50738
+1658163476485	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50739" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileAihEPM"
+*** You are running in headless mode.
+1658163476729	Marionette	INFO	Marionette enabled
+1658163476733	Marionette	INFO	Listening on port 50750
+WebDriver BiDi listening on ws://localhost:50739
+Read port: 50750
+1658163477032	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileAihEPM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50739/devtools/browser/828c6e97-2634-4e31-ae78-58b52e09c1bc
+1658163481675	geckodriver	INFO	Listening on 127.0.0.1:50860
+1658163484726	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50861" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileQ944lh"
+*** You are running in headless mode.
+1658163484955	Marionette	INFO	Marionette enabled
+1658163484958	Marionette	INFO	Listening on port 50874
+WebDriver BiDi listening on ws://localhost:50861
+Read port: 50874
+1658163485147	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileQ944lh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50861/devtools/browser/edf544ea-f810-4ebb-9686-12a097af2bee
+1658163493880	geckodriver	INFO	Listening on 127.0.0.1:50987
+1658163496915	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50988" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileDcVRxr"
+*** You are running in headless mode.
+1658163497134	Marionette	INFO	Marionette enabled
+1658163497139	Marionette	INFO	Listening on port 50999
+WebDriver BiDi listening on ws://localhost:50988
+Read port: 50999
+1658163497388	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileDcVRxr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50988/devtools/browser/aeaed92f-d351-4e27-98c2-4758067482a7
+1658163501546	geckodriver	INFO	Listening on 127.0.0.1:51103
+1658163504605	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "51104" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileoc799b"
+*** You are running in headless mode.
+1658163504849	Marionette	INFO	Marionette enabled
+1658163504852	Marionette	INFO	Listening on port 51117
+WebDriver BiDi listening on ws://localhost:51104
+Read port: 51117
+1658163505131	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileoc799b\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51104/devtools/browser/20e33a9f-73e7-475e-afd7-1b63c3449a32
+1658163509781	geckodriver	INFO	Listening on 127.0.0.1:51228
+1658163512807	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "51229" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilenQ3biF"
+*** You are running in headless mode.
+1658163513044	Marionette	INFO	Marionette enabled
+1658163513048	Marionette	INFO	Listening on port 51242
+WebDriver BiDi listening on ws://localhost:51229
+Read port: 51242
+1658163513482	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilenQ3biF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51229/devtools/browser/92d18415-4a6b-435e-8d7d-d8bfb0996cdf
+1658163517983	geckodriver	INFO	Listening on 127.0.0.1:51351
+1658163521011	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "51352" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilemuGD8t"
+*** You are running in headless mode.
+1658163521264	Marionette	INFO	Marionette enabled
+1658163521267	Marionette	INFO	Listening on port 51365
+WebDriver BiDi listening on ws://localhost:51352
+Read port: 51365
+1658163521561	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilemuGD8t\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51352/devtools/browser/471fb9bb-375e-4e12-945e-6619d411c3c8
+1658163526587	geckodriver	INFO	Listening on 127.0.0.1:51473
+1658163529621	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "51474" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofiledbjfF2"
+*** You are running in headless mode.
+1658163529841	Marionette	INFO	Marionette enabled
+1658163529844	Marionette	INFO	Listening on port 51489
+WebDriver BiDi listening on ws://localhost:51474
+Read port: 51489
+1658163530161	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofiledbjfF2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51474/devtools/browser/cc0da17a-815d-4875-b7ad-791e95669dd8
+1658163534477	geckodriver	INFO	Listening on 127.0.0.1:51596
+1658163537510	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "51597" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilemMrceQ"
+*** You are running in headless mode.
+1658163537763	Marionette	INFO	Marionette enabled
+1658163537767	Marionette	INFO	Listening on port 51611
+WebDriver BiDi listening on ws://localhost:51597
+Read port: 51611
+1658163537947	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofilemMrceQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51597/devtools/browser/53f04e2b-b3df-4e3a-b9a1-b77d2f9c47f8
+1658163543365	geckodriver	INFO	Listening on 127.0.0.1:51716
+1658163546401	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "51717" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileFMCF9e"
+*** You are running in headless mode.
+1658163546640	Marionette	INFO	Marionette enabled
+1658163546643	Marionette	INFO	Listening on port 51731
+WebDriver BiDi listening on ws://localhost:51717
+Read port: 51731
+1658163546832	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileFMCF9e\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51717/devtools/browser/172d6f40-e84b-4cb4-8eec-2965a298ab4b
+1658163551330	geckodriver	INFO	Listening on 127.0.0.1:51839
+1658163554371	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "51840" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileWTzgEr"
+*** You are running in headless mode.
+1658163554616	Marionette	INFO	Marionette enabled
+1658163554620	Marionette	INFO	Listening on port 51852
+WebDriver BiDi listening on ws://localhost:51840
+Read port: 51852
+1658163554944	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileWTzgEr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51840/devtools/browser/fbfd43b6-4df6-48e2-a6ed-cde93245ff27
+1658163560056	geckodriver	INFO	Listening on 127.0.0.1:51962
+1658163563096	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "51963" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileHHfafx"
+*** You are running in headless mode.
+1658163563342	Marionette	INFO	Marionette enabled
+1658163563345	Marionette	INFO	Listening on port 51977
+WebDriver BiDi listening on ws://localhost:51963
+Read port: 51977
+1658163563531	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileHHfafx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51963/devtools/browser/b35ce030-7eb1-42ff-875f-50fad8d88f47
+1658163568569	geckodriver	INFO	Listening on 127.0.0.1:52096
+1658163571602	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "52097" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofile6Qjh8R"
+*** You are running in headless mode.
+1658163571825	Marionette	INFO	Marionette enabled
+1658163571829	Marionette	INFO	Listening on port 52112
+WebDriver BiDi listening on ws://localhost:52097
+Read port: 52112
+1658163572324	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofile6Qjh8R\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52097/devtools/browser/76eb1d1a-7f55-488f-be81-3025e1bcb056
+1658163577052	geckodriver	INFO	Listening on 127.0.0.1:52219
+1658163580096	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "52220" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileWS9pMk"
+*** You are running in headless mode.
+1658163580383	Marionette	INFO	Marionette enabled
+1658163580387	Marionette	INFO	Listening on port 52232
+WebDriver BiDi listening on ws://localhost:52220
+Read port: 52232
+1658163580498	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileWS9pMk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52220/devtools/browser/88362bd8-4746-4793-8979-ca4f48476c32
+1658163585646	geckodriver	INFO	Listening on 127.0.0.1:52344
+1658163588688	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "52345" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofile8qo1Xp"
+*** You are running in headless mode.
+1658163588990	Marionette	INFO	Marionette enabled
+1658163588994	Marionette	INFO	Listening on port 52364
+WebDriver BiDi listening on ws://localhost:52345
+Read port: 52364
+1658163589116	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofile8qo1Xp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52345/devtools/browser/87b04d37-6109-4fd5-8cad-65f364f5f208
+1658163593730	geckodriver	INFO	Listening on 127.0.0.1:52486
+1658163596776	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "52487" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileFAEtsL"
+*** You are running in headless mode.
+1658163597007	Marionette	INFO	Marionette enabled
+1658163597011	Marionette	INFO	Listening on port 52500
+WebDriver BiDi listening on ws://localhost:52487
+Read port: 52500
+1658163597260	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileFAEtsL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52487/devtools/browser/c6b4f6c5-01a3-4393-bcc4-bf93eeed9d01
+1658163601745	geckodriver	INFO	Listening on 127.0.0.1:52608
+1658163604781	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "52609" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileJFSivs"
+*** You are running in headless mode.
+1658163605019	Marionette	INFO	Marionette enabled
+1658163605022	Marionette	INFO	Listening on port 52625
+WebDriver BiDi listening on ws://localhost:52609
+Read port: 52625
+1658163605302	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ajpor\\AppData\\Local\\Temp\\rust_mozprofileJFSivs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52609/devtools/browser/8b188ae2-7e51-42e2-b042-19809175a575
